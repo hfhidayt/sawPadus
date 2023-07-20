@@ -9,12 +9,18 @@
 
     <!-- Right navbar links -->
     <ul class="navbar-nav ml-auto">
-
-        <!-- Notifications Dropdown Menu -->
-        <li class="nav-item">
+        {{-- <li class="nav-item">
             <a class="nav-link" data-widget="fullscreen" href="#" role="button">
                 <i class="fas fa-expand-arrows-alt"></i>
             </a>
+        </li> --}}
+        <li class="nav-item">
+            <form action="/logout" method="post">
+                @csrf
+                <button type="submit" class="nav-link border-0 bg-white">
+                    <i class="bi bi-box-arrow-right"></i> Logout
+                </button>
+            </form>
         </li>
     </ul>
 </nav>

@@ -7,7 +7,7 @@
         <!-- Google Font: Source Sans Pro -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
         <!-- Font Awesome Icons -->
-        <link rel="stylesheet" href="{{ asset('vendor\fontawesome-free-6.4.0\css\all.min.css') }}">
+        <link rel="stylesheet" href="{{ asset('public\vendor\fontawesome-free\css\all.min.css') }}">
         <!-- Theme style -->
         <link rel="stylesheet" href="{{ asset('vendor/adminlte/dist/css/adminlte.min.css') }}">
         <link rel="stylesheet" href="{{ asset('vendor\bootstrap\icheck-bootstrap\icheck-bootstrap.min.css') }}">

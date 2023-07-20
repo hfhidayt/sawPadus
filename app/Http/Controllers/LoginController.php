@@ -14,16 +14,19 @@ class LoginController extends Controller
     }
 
     public function authenticate(Request $request) {
+        // dd($request);
         $credentials = $request->validate([
             'username' => 'required',
             'password' => 'required'
         ]);
 
         if(Auth::attempt($credentials)) {
+            // dd('sukses');
             $request->session()->regenerate();
             return redirect()->intended('/dashboard');
         }
         
+        // dd('tidak sukses');
         return back()->with('loginError', 'Login Gagal!');
     }
     
