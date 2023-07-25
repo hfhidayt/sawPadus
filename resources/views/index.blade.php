@@ -9,9 +9,9 @@
         <!-- Ionicons -->
         <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
         <!-- Font Awesome Icons -->
-        <link rel="stylesheet" href="{{ asset('vendor/fontawesome-free/css/all.min.css') }}">
+        <link rel="stylesheet" href="{{ asset('vendor\fontawesome-free\css\all.min.css') }}">
         <!-- Theme style -->
-        <link rel="stylesheet" href="{{ asset('vendor/adminlte/dist/css/adminlte.min.css') }}">
+        <link rel="stylesheet" href="{{ asset('vendor\adminlte\dist\css\adminlte.min.css') }}">
         <!-- Bootstrap 5.3.0 -->
         <link rel="stylesheet" href="{{ asset('vendor\bootstrap\css\bootstrap.min.css') }}">
         <!-- icheck-bootstrap -->
@@ -22,7 +22,6 @@
         <link rel="stylesheet" href="{{ asset('vendor\daterangepicker\daterangepicker.css') }}">
         <!-- summernote -->
         <link rel="stylesheet" href="{{ asset('vendor\summernote\summernote-bs4.min.css') }}">
-
     </head>
     <body class="hold-transition login-page">
         <div class="login-box">
@@ -76,7 +75,7 @@
         <!-- REQUIRED SCRIPTS -->
         <!-- jQuery -->
         <script src="{{ asset('vendor/jquery/jquery.min.js') }}"></script>
-        <!-- Bootstrap 4 -->
+        <!-- Bootstrap -->
         <script src="{{ asset('vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
         <!-- AdminLTE App -->
         <script src="{{ asset('vendor/adminlte/dist/js/adminlte.min.js') }}"></script>

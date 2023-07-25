@@ -1,7 +1,9 @@
 <?php
 
+use App\Http\Controllers\KriteriaController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\RegisterController;
+use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -31,3 +33,6 @@ Route::get('/dashboard', function () {
         'title' => 'Dashboard | PADUS UTDI'
     ]);
 });
+
+Route::resource('/dashboard/akun', UserController::class);
+Route::resource('/dashboard/kriteria', KriteriaController::class);

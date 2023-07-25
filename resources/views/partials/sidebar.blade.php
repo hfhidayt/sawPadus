@@ -13,11 +13,18 @@
             <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
                 <li class="nav-header">MENU</li>
                 <li class="nav-item">
-                    <a href="pages/calendar.html" class="nav-link">
-                        {{-- <i class="nav-icon far fa-calendar-alt"></i> --}}
+                    <a href="/dashboard/akun" class="nav-link">
                         <i class="far fa-user"></i>
                         <p>
                             Users
+                        </p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/dashboard/kriteria" class="nav-link">
+                        <i class="far fa-user"></i>
+                        <p>
+                            Kriteria
                         </p>
                     </a>
                 </li>
