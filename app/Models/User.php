@@ -43,4 +43,8 @@ class User extends Authenticatable
     // ];
 
     protected $guarded = ['id'];
+
+    public function nilai() {
+        return $this->hasOne(Nilai::class);
+    }
 }

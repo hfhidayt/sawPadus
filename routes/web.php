@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\KriteriaController;
 use App\Http\Controllers\LoginController;
+use App\Http\Controllers\NilaiController;
 use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
@@ -36,3 +37,4 @@ Route::get('/dashboard', function () {
 
 Route::resource('/dashboard/akun', UserController::class);
 Route::resource('/dashboard/kriteria', KriteriaController::class);
+Route::resource('/dashboard/nilai', NilaiController::class);

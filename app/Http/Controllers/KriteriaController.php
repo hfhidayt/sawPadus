@@ -3,7 +3,9 @@
 namespace App\Http\Controllers;
 
 use App\Models\Kriteria;
+use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Schema;
 
 class KriteriaController extends Controller
 {
@@ -42,8 +44,13 @@ class KriteriaController extends Controller
             'nama_kriteria' => 'required|max:255',
             'bobot_kriteria' => 'required'
         ]);
-        
+        // dd($validatedData['nama_kriteria']);
         Kriteria::Create($validatedData);
+        
+        Schema::table('nilais', function (Blueprint $table) use ($validatedData) {
+            $table->integer(strtolower($validatedData['nama_kriteria']));
+        });
+
         return redirect('/dashboard/kriteria')->with('success', 'Berhasil disimpan');
     }
 
@@ -97,7 +104,13 @@ class KriteriaController extends Controller
      */
     public function destroy(Kriteria $kriterium)
     {
+        $dropColumn = Kriteria::Where('id', $kriterium->id)->get();
+
         Kriteria::destroy($kriterium->id);
+
+        Schema::table('nilais', function (Blueprint $table) use ($dropColumn) {
+            $table->dropColumn(strtolower($dropColumn[0]->nama_kriteria));
+        });
 
         return redirect('/dashboard/kriteria')->with('success', 'Kriteria berhasil dihapus');
     }
