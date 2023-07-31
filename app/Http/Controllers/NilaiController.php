@@ -17,20 +17,11 @@ class NilaiController extends Controller
      */
     public function index()
     {
-        $a = Nilai::select('user_id')->get();
-        $b = User::select('id')->get();
-        $c = new Collection();
-        for ($i = 0; $i < $b->count(); $i++) {
-            if ($a[$i] == $b[$i]->id) {
-                dd('true');
-            }
-            // $c = $c->merge(User::where('id', ($i + 2))->get());
-        }
-        dd($a, $b->count(), $c[0]->nama);
         return view('dashboard.nilai.index', [
             'title' => 'Nilai | Padus UTDI',
             'kriterias' => Kriteria::all(),
-            'nilais' => Nilai::all()
+            'nilais' => Nilai::all(),
+            'users' => User::where('nilai', false)->get()
         ]);
     }
 
@@ -52,7 +43,16 @@ class NilaiController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $validatedData = $request->validate([
+            '*' => 'required'
+        ]);
+        // dd($validatedData);
+
+        Nilai::Create($validatedData);
+
+        User::Where('id', $request->user_id)->update(['nilai' => 1]);
+
+        return redirect('/dashboard/nilai')->with('success', 'Berhasil ditambahkan');
     }
 
     /**
@@ -86,7 +86,15 @@ class NilaiController extends Controller
      */
     public function update(Request $request, Nilai $nilai)
     {
-        //
+        $request->validate([
+            '*' => 'required'
+        ]);
+        
+        $validatedData = $request->except(['_token','_method']);
+        
+        Nilai::Where('id', $nilai->id)->update($validatedData);
+
+        return redirect('/dashboard/nilai')->with('success', 'Berhasil memperbarui nilai!');
     }
 
     /**
@@ -97,6 +105,12 @@ class NilaiController extends Controller
      */
     public function destroy(Nilai $nilai)
     {
-        //
+        $user_id = $nilai->user_id;
+
+        Nilai::destroy($nilai->id);
+
+        User::Where('id', $user_id)->update(['nilai' => 0]);
+
+        return redirect('/dashboard/nilai')->with('success', 'Nilai berhasil dihapus');
     }
 }

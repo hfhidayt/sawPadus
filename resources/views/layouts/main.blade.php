@@ -8,8 +8,9 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
         <!-- Font Awesome Icons -->
         <link rel="stylesheet" href="{{ asset('vendor\fontawesome-free\css\all.min.css') }}">
-        <!-- Bootstrap 5.3.0 -->
-        <link rel="stylesheet" href="{{ asset('vendor\bootstrap\css\bootstrap.min.css') }}">
+        {{-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css"> --}}
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
         <!-- Theme style -->
         <link rel="stylesheet" href="{{ asset('vendor\adminlte\dist\css\adminlte.min.css') }}">
         <!-- icheck-bootstrap -->
@@ -28,9 +29,9 @@
         </div>
         <!-- REQUIRED SCRIPTS -->
         <!-- jQuery -->
-        <script src="{{ asset('vendor/jquery/jquery.min.js') }}"></script>
-        <!-- Bootstrap 5.3.0 -->
-        <script src="{{ asset('vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js"></script>
+        <!-- Bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"></script>
         <!-- AdminLTE App -->
         <script src="{{ asset('vendor/adminlte/dist/js/adminlte.min.js') }}"></script>
         @stack('script')

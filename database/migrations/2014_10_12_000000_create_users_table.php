@@ -22,6 +22,7 @@ class CreateUsersTable extends Migration
             $table->string('nim');
             $table->string('jurusan');
             $table->string('role');
+            $table->boolean('nilai')->default(false);
             $table->rememberToken();
             $table->timestamps();
         });

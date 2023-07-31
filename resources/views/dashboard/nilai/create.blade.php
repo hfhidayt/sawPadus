@@ -10,7 +10,12 @@
                 <div class="modal-body">
                     <div class="mb-3">
                         <label for="nama_anggota" class="form-label">Nama Anggota</label>
-                        <input type="text" class="form-control" placeholder="Nama Anggota" name="nama_anggota" id="nama_anggota">
+                        <select class="form-select" name="user_id" id="nama_anggota">
+                            <option value="">-- Pilih --</option>
+                            @foreach($users as $u)
+                                <option value="{{ $u->id }}">{{ $u->nama }}</option>
+                            @endforeach
+                        </select>
                     </div>
                     @error('nama_anggota')
                         <div class="invalid-feedback d-block">

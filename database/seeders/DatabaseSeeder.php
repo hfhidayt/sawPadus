@@ -25,6 +25,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '000000000',
             'jurusan' => 'padusUtdi',
             'role' => 'admin',
+            'nilai' => 1
         ]);
 
         Kriteria::Create([
@@ -48,7 +49,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('chyntia'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -57,7 +59,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('lynda'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -66,7 +69,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('aurel'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -75,7 +79,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('april'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -84,7 +89,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('rena'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -93,7 +99,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('rangga'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -102,7 +109,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('vio'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -111,7 +119,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('dany'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -120,7 +129,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('putra'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -129,7 +139,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('akmal'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -138,7 +149,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('hanif'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -147,7 +159,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('sari'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -156,7 +169,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('bayu'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -165,7 +179,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('citra'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -174,7 +189,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('nadia'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -183,7 +199,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('hendra'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -192,7 +209,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('umar'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -201,7 +219,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('lina'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -210,7 +229,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('dian'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -219,7 +239,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('riana'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -228,7 +249,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('kurnia'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -237,7 +259,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('rama'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -246,7 +269,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('siska'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -255,7 +279,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('kadek'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -264,7 +289,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('aisyah'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -273,7 +299,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('zainal'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -282,7 +309,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('vera'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -291,7 +319,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('tito'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -300,7 +329,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('tika'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -309,7 +339,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('gita'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -318,7 +349,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('bagus'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -327,7 +359,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('yani'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -336,7 +369,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('prima'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -345,7 +379,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('mahesa'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -354,7 +389,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('novi'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -363,7 +399,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('erwin'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -372,7 +409,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('yanto'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -381,7 +419,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('nanda'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -390,7 +429,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('okta'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -399,7 +439,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('indri'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -408,7 +449,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('rini'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -417,7 +459,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('jelita'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -426,7 +469,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('adi'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -435,7 +479,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('zara'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -444,7 +489,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('kusumo'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -453,7 +499,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('lutfi'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -462,7 +509,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('mira'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -471,7 +519,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('fitri'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -480,7 +529,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('oka'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -489,7 +539,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('rani'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -498,7 +549,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('budi'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -507,7 +559,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('vania'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -516,7 +569,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('gilang'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -525,7 +579,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('nila'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -534,7 +589,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('aji'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -543,7 +599,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('farah'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -552,7 +609,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('yuni'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -561,7 +619,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('dewi'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -570,7 +629,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('reza'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -579,7 +639,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('jaya'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -588,7 +649,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('safira'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -597,7 +659,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('aditya'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -606,7 +669,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('candra'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -615,7 +679,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('winda'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -624,7 +689,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('dini'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -633,7 +699,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('riani'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -642,7 +709,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('anita'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -651,7 +719,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('eko'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -660,7 +729,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('rina'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -669,7 +739,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('indah'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -678,7 +749,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('maulana'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -687,7 +759,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('vina'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -696,7 +769,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('tania'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -705,7 +779,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('zulaikha'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -714,7 +789,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('karina'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -723,7 +799,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('fitria'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -732,7 +809,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('ghalib'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -741,7 +819,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('tari'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -750,7 +829,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('andi'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -759,7 +839,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('oki'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -768,7 +849,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('citra'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -777,7 +859,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('rama'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -786,7 +869,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('aisyah'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -795,7 +879,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('kusuma'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -804,7 +889,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('yanto'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -813,7 +899,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('nita'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -822,7 +909,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('kania'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -831,7 +919,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('adinda'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -840,7 +929,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('sakti'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -849,7 +939,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('joko'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -858,7 +949,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('candra'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -867,7 +959,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('dian'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -876,7 +969,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('vera'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -885,7 +979,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('riani'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -894,7 +989,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('sari'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -903,7 +999,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('lila'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -912,7 +1009,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('zainal'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -921,7 +1019,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('rena'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -930,7 +1029,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('rama'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
         
         User::Create([
@@ -939,7 +1039,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('zara'),
             'nim' => '0',
             'jurusan' => 'padusUtdi',
-            'role' => 'anggota'
+            'role' => 'anggota',
+            'nilai' => 0
         ]);
 
         // Nilai::Create([
