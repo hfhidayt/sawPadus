@@ -36,6 +36,14 @@
                         </p>
                     </a>
                 </li>
+                <li class="nav-item">
+                    <a href="/dashboard/hitung" class="nav-link">
+                        <i class="far fa-user"></i>
+                        <p>
+                            Perhitungan
+                        </p>
+                    </a>
+                </li>
             </ul>
         </nav>
         <!-- /.sidebar-menu -->

@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\HitungController;
 use App\Http\Controllers\KriteriaController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\NilaiController;
@@ -38,3 +39,4 @@ Route::get('/dashboard', function () {
 Route::resource('/dashboard/akun', UserController::class);
 Route::resource('/dashboard/kriteria', KriteriaController::class);
 Route::resource('/dashboard/nilai', NilaiController::class);
+Route::resource('/dashboard/hitung', HitungController::class);

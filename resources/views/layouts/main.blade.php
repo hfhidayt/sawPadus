@@ -11,6 +11,7 @@
         {{-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css"> --}}
         <!-- Bootstrap -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.min.css">
         <!-- Theme style -->
         <link rel="stylesheet" href="{{ asset('vendor\adminlte\dist\css\adminlte.min.css') }}">
         <!-- icheck-bootstrap -->
@@ -34,6 +35,9 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"></script>
         <!-- AdminLTE App -->
         <script src="{{ asset('vendor/adminlte/dist/js/adminlte.min.js') }}"></script>
+        <script>
+            feather.replace()
+        </script>
         @stack('script')
     </body>
 </html>

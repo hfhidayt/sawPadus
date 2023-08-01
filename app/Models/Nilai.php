@@ -13,4 +13,8 @@ class Nilai extends Model
     public function user() {
         return $this->belongsTo(User::class);
     }
+    
+    public function hitung() {
+        return $this->hasOne(Hitung::class);
+    }
 }

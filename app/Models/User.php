@@ -47,4 +47,8 @@ class User extends Authenticatable
     public function nilai() {
         return $this->hasOne(Nilai::class);
     }
+    
+    public function hitung() {
+        return $this->hasOne(Hitung::class);
+    }
 }

@@ -21,7 +21,7 @@ class NilaiController extends Controller
             'title' => 'Nilai | Padus UTDI',
             'kriterias' => Kriteria::all(),
             'nilais' => Nilai::all(),
-            'users' => User::where('nilai', false)->get()
+            'users' => User::where('nilai', 0)->get()
         ]);
     }
 

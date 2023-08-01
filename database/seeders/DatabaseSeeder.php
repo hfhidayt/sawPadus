@@ -50,7 +50,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -60,7 +60,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -70,7 +70,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -80,7 +80,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -90,7 +90,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -100,7 +100,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -110,7 +110,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -120,7 +120,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -130,7 +130,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -140,7 +140,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -150,7 +150,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -160,7 +160,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -170,7 +170,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -180,7 +180,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -190,7 +190,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -200,7 +200,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -210,7 +210,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -220,7 +220,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -230,7 +230,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -240,7 +240,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -250,7 +250,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -260,7 +260,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -270,7 +270,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -280,7 +280,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -290,7 +290,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -300,7 +300,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -310,7 +310,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -320,7 +320,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -330,7 +330,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -340,7 +340,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -350,7 +350,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -360,7 +360,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -370,7 +370,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -380,7 +380,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -390,7 +390,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -400,7 +400,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -410,7 +410,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -420,7 +420,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -430,7 +430,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -440,7 +440,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -450,7 +450,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -460,7 +460,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -470,7 +470,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -480,7 +480,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -490,7 +490,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -500,7 +500,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -510,7 +510,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -520,7 +520,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -530,7 +530,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -540,7 +540,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -550,7 +550,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -560,7 +560,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -570,7 +570,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -580,7 +580,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -590,7 +590,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -600,7 +600,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -610,7 +610,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -620,7 +620,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -630,7 +630,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -640,7 +640,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -650,7 +650,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -660,7 +660,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -670,7 +670,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -680,7 +680,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -690,7 +690,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -700,7 +700,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -710,7 +710,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -720,7 +720,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -730,7 +730,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -740,7 +740,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -750,7 +750,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -760,7 +760,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -770,7 +770,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -780,7 +780,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -790,7 +790,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -800,7 +800,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -810,7 +810,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -820,7 +820,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -830,7 +830,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -840,7 +840,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -850,7 +850,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -860,7 +860,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -870,7 +870,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -880,7 +880,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -890,7 +890,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -900,7 +900,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -910,7 +910,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -920,7 +920,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -930,7 +930,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -940,7 +940,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -950,7 +950,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -960,7 +960,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -970,7 +970,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -980,7 +980,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -990,7 +990,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -1000,7 +1000,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -1010,7 +1010,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -1020,7 +1020,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -1030,7 +1030,7 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
         
         User::Create([
@@ -1040,707 +1040,707 @@ class DatabaseSeeder extends Seeder
             'nim' => '0',
             'jurusan' => 'padusUtdi',
             'role' => 'anggota',
-            'nilai' => 0
+            'nilai' => 1
         ]);
 
-        // Nilai::Create([
-        //     'user_id' => 2,
-        //     'wawancara' => 61,
-        //     'latihan' => 4,
-        //     'audisi' => 83
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 3,
-        //     'wawancara' => 78,
-        //     'latihan' => 5,
-        //     'audisi' => 82
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 4,
-        //     'wawancara' => 89,
-        //     'latihan' => 3,
-        //     'audisi' => 94
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 5,
-        //     'wawancara' => 98,
-        //     'latihan' => 5,
-        //     'audisi' => 73
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 6,
-        //     'wawancara' => 85,
-        //     'latihan' => 2,
-        //     'audisi' => 67
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 7,
-        //     'wawancara' => 66,
-        //     'latihan' => 1,
-        //     'audisi' => 77
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 8,
-        //     'wawancara' => 79,
-        //     'latihan' => 4,
-        //     'audisi' => 75
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 9,
-        //     'wawancara' => 76,
-        //     'latihan' => 5,
-        //     'audisi' => 87
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 10,
-        //     'wawancara' => 88,
-        //     'latihan' => 3,
-        //     'audisi' => 45
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 11,
-        //     'wawancara' => 64,
-        //     'latihan' => 2,
-        //     'audisi' => 62
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 12,
-        //     'wawancara' => 81,
-        //     'latihan' => 3,
-        //     'audisi' => 29
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 13,
-        //     'wawancara' => 47,
-        //     'latihan' => 1,
-        //     'audisi' => 40
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 14,
-        //     'wawancara' => 48,
-        //     'latihan' => 3,
-        //     'audisi' => 68
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 15,
-        //     'wawancara' => 89,
-        //     'latihan' => 4,
-        //     'audisi' => 28
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 16,
-        //     'wawancara' => 37,
-        //     'latihan' => 4,
-        //     'audisi' => 50
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 17,
-        //     'wawancara' => 21,
-        //     'latihan' => 1,
-        //     'audisi' => 75
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 18,
-        //     'wawancara' => 29,
-        //     'latihan' => 5,
-        //     'audisi' => 31
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 19,
-        //     'wawancara' => 74,
-        //     'latihan' => 2,
-        //     'audisi' => 96
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 20,
-        //     'wawancara' => 41,
-        //     'latihan' => 2,
-        //     'audisi' => 60
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 21,
-        //     'wawancara' => 81,
-        //     'latihan' => 3,
-        //     'audisi' => 25
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 22,
-        //     'wawancara' => 93,
-        //     'latihan' => 1,
-        //     'audisi' => 92
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 23,
-        //     'wawancara' => 69,
-        //     'latihan' => 1,
-        //     'audisi' => 84
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 24,
-        //     'wawancara' => 97,
-        //     'latihan' => 1,
-        //     'audisi' => 33
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 25,
-        //     'wawancara' => 59,
-        //     'latihan' => 2,
-        //     'audisi' => 95
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 26,
-        //     'wawancara' => 35,
-        //     'latihan' => 4,
-        //     'audisi' => 69
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 27,
-        //     'wawancara' => 87,
-        //     'latihan' => 1,
-        //     'audisi' => 61
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 28,
-        //     'wawancara' => 28,
-        //     'latihan' => 5,
-        //     'audisi' => 35
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 29,
-        //     'wawancara' => 36,
-        //     'latihan' => 1,
-        //     'audisi' => 30
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 30,
-        //     'wawancara' => 41,
-        //     'latihan' => 3,
-        //     'audisi' => 84
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 31,
-        //     'wawancara' => 56,
-        //     'latihan' => 3,
-        //     'audisi' => 65
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 32,
-        //     'wawancara' => 75,
-        //     'latihan' => 2,
-        //     'audisi' => 35
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 33,
-        //     'wawancara' => 31,
-        //     'latihan' => 3,
-        //     'audisi' => 88
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 34,
-        //     'wawancara' => 54,
-        //     'latihan' => 5,
-        //     'audisi' => 58
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 35,
-        //     'wawancara' => 69,
-        //     'latihan' => 5,
-        //     'audisi' => 31
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 36,
-        //     'wawancara' => 23,
-        //     'latihan' => 4,
-        //     'audisi' => 71
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 37,
-        //     'wawancara' => 83,
-        //     'latihan' => 2,
-        //     'audisi' => 31
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 38,
-        //     'wawancara' => 28,
-        //     'latihan' => 2,
-        //     'audisi' => 34
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 39,
-        //     'wawancara' => 70,
-        //     'latihan' => 5,
-        //     'audisi' => 36
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 40,
-        //     'wawancara' => 63,
-        //     'latihan' => 3,
-        //     'audisi' => 37
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 41,
-        //     'wawancara' => 50,
-        //     'latihan' => 4,
-        //     'audisi' => 45
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 42,
-        //     'wawancara' => 50,
-        //     'latihan' => 2,
-        //     'audisi' => 77
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 43,
-        //     'wawancara' => 97,
-        //     'latihan' => 1,
-        //     'audisi' => 29
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 44,
-        //     'wawancara' => 75,
-        //     'latihan' => 3,
-        //     'audisi' => 100
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 45,
-        //     'wawancara' => 61,
-        //     'latihan' => 5,
-        //     'audisi' => 45
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 46,
-        //     'wawancara' => 91,
-        //     'latihan' => 5,
-        //     'audisi' => 55
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 47,
-        //     'wawancara' => 52,
-        //     'latihan' => 1,
-        //     'audisi' => 36
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 48,
-        //     'wawancara' => 84,
-        //     'latihan' => 5,
-        //     'audisi' => 44
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 49,
-        //     'wawancara' => 94,
-        //     'latihan' => 1,
-        //     'audisi' => 56
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 50,
-        //     'wawancara' => 63,
-        //     'latihan' => 1,
-        //     'audisi' => 88
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 51,
-        //     'wawancara' => 87,
-        //     'latihan' => 1,
-        //     'audisi' => 54
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 52,
-        //     'wawancara' => 35,
-        //     'latihan' => 5,
-        //     'audisi' => 52
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 53,
-        //     'wawancara' => 77,
-        //     'latihan' => 4,
-        //     'audisi' => 100
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 54,
-        //     'wawancara' => 23,
-        //     'latihan' => 4,
-        //     'audisi' => 53
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 55,
-        //     'wawancara' => 87,
-        //     'latihan' => 5,
-        //     'audisi' => 23
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 56,
-        //     'wawancara' => 34,
-        //     'latihan' => 1,
-        //     'audisi' => 95
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 57,
-        //     'wawancara' => 60,
-        //     'latihan' => 5,
-        //     'audisi' => 72
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 58,
-        //     'wawancara' => 66,
-        //     'latihan' => 3,
-        //     'audisi' => 77
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 59,
-        //     'wawancara' => 21,
-        //     'latihan' => 2,
-        //     'audisi' => 65
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 60,
-        //     'wawancara' => 47,
-        //     'latihan' => 2,
-        //     'audisi' => 85
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 61,
-        //     'wawancara' => 21,
-        //     'latihan' => 5,
-        //     'audisi' => 46
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 62,
-        //     'wawancara' => 60,
-        //     'latihan' => 2,
-        //     'audisi' => 22
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 63,
-        //     'wawancara' => 21,
-        //     'latihan' => 4,
-        //     'audisi' => 59
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 64,
-        //     'wawancara' => 31,
-        //     'latihan' => 4,
-        //     'audisi' => 75
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 65,
-        //     'wawancara' => 29,
-        //     'latihan' => 2,
-        //     'audisi' => 24
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 66,
-        //     'wawancara' => 89,
-        //     'latihan' => 3,
-        //     'audisi' => 53
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 67,
-        //     'wawancara' => 79,
-        //     'latihan' => 3,
-        //     'audisi' => 51
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 68,
-        //     'wawancara' => 88,
-        //     'latihan' => 4,
-        //     'audisi' => 98
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 69,
-        //     'wawancara' => 51,
-        //     'latihan' => 1,
-        //     'audisi' => 79
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 70,
-        //     'wawancara' => 35,
-        //     'latihan' => 2,
-        //     'audisi' => 77
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 71,
-        //     'wawancara' => 67,
-        //     'latihan' => 5,
-        //     'audisi' => 77
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 72,
-        //     'wawancara' => 32,
-        //     'latihan' => 5,
-        //     'audisi' => 83
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 73,
-        //     'wawancara' => 98,
-        //     'latihan' => 1,
-        //     'audisi' => 92
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 74,
-        //     'wawancara' => 62,
-        //     'latihan' => 5,
-        //     'audisi' => 41
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 75,
-        //     'wawancara' => 97,
-        //     'latihan' => 3,
-        //     'audisi' => 63
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 76,
-        //     'wawancara' => 28,
-        //     'latihan' => 5,
-        //     'audisi' => 22
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 77,
-        //     'wawancara' => 82,
-        //     'latihan' => 3,
-        //     'audisi' => 28
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 78,
-        //     'wawancara' => 78,
-        //     'latihan' => 5,
-        //     'audisi' => 56
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 79,
-        //     'wawancara' => 36,
-        //     'latihan' => 5,
-        //     'audisi' => 62
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 80,
-        //     'wawancara' => 65,
-        //     'latihan' => 4,
-        //     'audisi' => 54
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 81,
-        //     'wawancara' => 32,
-        //     'latihan' => 2,
-        //     'audisi' => 37
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 82,
-        //     'wawancara' => 77,
-        //     'latihan' => 2,
-        //     'audisi' => 95
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 83,
-        //     'wawancara' => 20,
-        //     'latihan' => 5,
-        //     'audisi' => 45
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 84,
-        //     'wawancara' => 49,
-        //     'latihan' => 3,
-        //     'audisi' => 87
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 85,
-        //     'wawancara' => 58,
-        //     'latihan' => 5,
-        //     'audisi' => 47
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 86,
-        //     'wawancara' => 57,
-        //     'latihan' => 2,
-        //     'audisi' => 78
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 87,
-        //     'wawancara' => 61,
-        //     'latihan' => 5,
-        //     'audisi' => 91
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 88,
-        //     'wawancara' => 25,
-        //     'latihan' => 4,
-        //     'audisi' => 25
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 89,
-        //     'wawancara' => 21,
-        //     'latihan' => 1,
-        //     'audisi' => 77
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 90,
-        //     'wawancara' => 64,
-        //     'latihan' => 1,
-        //     'audisi' => 79
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 91,
-        //     'wawancara' => 97,
-        //     'latihan' => 1,
-        //     'audisi' => 27
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 92,
-        //     'wawancara' => 75,
-        //     'latihan' => 3,
-        //     'audisi' => 73
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 93,
-        //     'wawancara' => 67,
-        //     'latihan' => 5,
-        //     'audisi' => 29
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 94,
-        //     'wawancara' => 87,
-        //     'latihan' => 2,
-        //     'audisi' => 43
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 95,
-        //     'wawancara' => 67,
-        //     'latihan' => 5,
-        //     'audisi' => 69
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 96,
-        //     'wawancara' => 63,
-        //     'latihan' => 1,
-        //     'audisi' => 85
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 97,
-        //     'wawancara' => 31,
-        //     'latihan' => 1,
-        //     'audisi' => 60
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 98,
-        //     'wawancara' => 42,
-        //     'latihan' => 3,
-        //     'audisi' => 97
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 99,
-        //     'wawancara' => 52,
-        //     'latihan' => 4,
-        //     'audisi' => 29
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 100,
-        //     'wawancara' => 22,
-        //     'latihan' => 1,
-        //     'audisi' => 82
-        // ]);
-        
-        // Nilai::Create([
-        //     'user_id' => 101,
-        //     'wawancara' => 61,
-        //     'latihan' => 1,
-        //     'audisi' => 74
-        // ]);
+        Nilai::Create([
+            'user_id' => 2,
+            'wawancara' => 61,
+            'latihan' => 4,
+            'audisi' => 83
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 3,
+            'wawancara' => 78,
+            'latihan' => 5,
+            'audisi' => 82
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 4,
+            'wawancara' => 89,
+            'latihan' => 3,
+            'audisi' => 94
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 5,
+            'wawancara' => 98,
+            'latihan' => 5,
+            'audisi' => 73
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 6,
+            'wawancara' => 85,
+            'latihan' => 2,
+            'audisi' => 67
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 7,
+            'wawancara' => 66,
+            'latihan' => 1,
+            'audisi' => 77
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 8,
+            'wawancara' => 79,
+            'latihan' => 4,
+            'audisi' => 75
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 9,
+            'wawancara' => 76,
+            'latihan' => 5,
+            'audisi' => 87
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 10,
+            'wawancara' => 88,
+            'latihan' => 3,
+            'audisi' => 45
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 11,
+            'wawancara' => 64,
+            'latihan' => 2,
+            'audisi' => 62
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 12,
+            'wawancara' => 81,
+            'latihan' => 3,
+            'audisi' => 29
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 13,
+            'wawancara' => 47,
+            'latihan' => 1,
+            'audisi' => 40
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 14,
+            'wawancara' => 48,
+            'latihan' => 3,
+            'audisi' => 68
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 15,
+            'wawancara' => 89,
+            'latihan' => 4,
+            'audisi' => 28
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 16,
+            'wawancara' => 37,
+            'latihan' => 4,
+            'audisi' => 50
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 17,
+            'wawancara' => 21,
+            'latihan' => 1,
+            'audisi' => 75
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 18,
+            'wawancara' => 29,
+            'latihan' => 5,
+            'audisi' => 31
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 19,
+            'wawancara' => 74,
+            'latihan' => 2,
+            'audisi' => 96
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 20,
+            'wawancara' => 41,
+            'latihan' => 2,
+            'audisi' => 60
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 21,
+            'wawancara' => 81,
+            'latihan' => 3,
+            'audisi' => 25
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 22,
+            'wawancara' => 93,
+            'latihan' => 1,
+            'audisi' => 92
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 23,
+            'wawancara' => 69,
+            'latihan' => 1,
+            'audisi' => 84
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 24,
+            'wawancara' => 97,
+            'latihan' => 1,
+            'audisi' => 33
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 25,
+            'wawancara' => 59,
+            'latihan' => 2,
+            'audisi' => 95
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 26,
+            'wawancara' => 35,
+            'latihan' => 4,
+            'audisi' => 69
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 27,
+            'wawancara' => 87,
+            'latihan' => 1,
+            'audisi' => 61
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 28,
+            'wawancara' => 28,
+            'latihan' => 5,
+            'audisi' => 35
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 29,
+            'wawancara' => 36,
+            'latihan' => 1,
+            'audisi' => 30
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 30,
+            'wawancara' => 41,
+            'latihan' => 3,
+            'audisi' => 84
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 31,
+            'wawancara' => 56,
+            'latihan' => 3,
+            'audisi' => 65
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 32,
+            'wawancara' => 75,
+            'latihan' => 2,
+            'audisi' => 35
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 33,
+            'wawancara' => 31,
+            'latihan' => 3,
+            'audisi' => 88
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 34,
+            'wawancara' => 54,
+            'latihan' => 5,
+            'audisi' => 58
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 35,
+            'wawancara' => 69,
+            'latihan' => 5,
+            'audisi' => 31
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 36,
+            'wawancara' => 23,
+            'latihan' => 4,
+            'audisi' => 71
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 37,
+            'wawancara' => 83,
+            'latihan' => 2,
+            'audisi' => 31
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 38,
+            'wawancara' => 28,
+            'latihan' => 2,
+            'audisi' => 34
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 39,
+            'wawancara' => 70,
+            'latihan' => 5,
+            'audisi' => 36
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 40,
+            'wawancara' => 63,
+            'latihan' => 3,
+            'audisi' => 37
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 41,
+            'wawancara' => 50,
+            'latihan' => 4,
+            'audisi' => 45
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 42,
+            'wawancara' => 50,
+            'latihan' => 2,
+            'audisi' => 77
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 43,
+            'wawancara' => 97,
+            'latihan' => 1,
+            'audisi' => 29
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 44,
+            'wawancara' => 75,
+            'latihan' => 3,
+            'audisi' => 100
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 45,
+            'wawancara' => 61,
+            'latihan' => 5,
+            'audisi' => 45
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 46,
+            'wawancara' => 91,
+            'latihan' => 5,
+            'audisi' => 55
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 47,
+            'wawancara' => 52,
+            'latihan' => 1,
+            'audisi' => 36
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 48,
+            'wawancara' => 84,
+            'latihan' => 5,
+            'audisi' => 44
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 49,
+            'wawancara' => 94,
+            'latihan' => 1,
+            'audisi' => 56
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 50,
+            'wawancara' => 63,
+            'latihan' => 1,
+            'audisi' => 88
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 51,
+            'wawancara' => 87,
+            'latihan' => 1,
+            'audisi' => 54
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 52,
+            'wawancara' => 35,
+            'latihan' => 5,
+            'audisi' => 52
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 53,
+            'wawancara' => 77,
+            'latihan' => 4,
+            'audisi' => 100
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 54,
+            'wawancara' => 23,
+            'latihan' => 4,
+            'audisi' => 53
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 55,
+            'wawancara' => 87,
+            'latihan' => 5,
+            'audisi' => 23
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 56,
+            'wawancara' => 34,
+            'latihan' => 1,
+            'audisi' => 95
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 57,
+            'wawancara' => 60,
+            'latihan' => 5,
+            'audisi' => 72
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 58,
+            'wawancara' => 66,
+            'latihan' => 3,
+            'audisi' => 77
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 59,
+            'wawancara' => 21,
+            'latihan' => 2,
+            'audisi' => 65
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 60,
+            'wawancara' => 47,
+            'latihan' => 2,
+            'audisi' => 85
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 61,
+            'wawancara' => 21,
+            'latihan' => 5,
+            'audisi' => 46
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 62,
+            'wawancara' => 60,
+            'latihan' => 2,
+            'audisi' => 22
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 63,
+            'wawancara' => 21,
+            'latihan' => 4,
+            'audisi' => 59
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 64,
+            'wawancara' => 31,
+            'latihan' => 4,
+            'audisi' => 75
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 65,
+            'wawancara' => 29,
+            'latihan' => 2,
+            'audisi' => 24
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 66,
+            'wawancara' => 89,
+            'latihan' => 3,
+            'audisi' => 53
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 67,
+            'wawancara' => 79,
+            'latihan' => 3,
+            'audisi' => 51
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 68,
+            'wawancara' => 88,
+            'latihan' => 4,
+            'audisi' => 98
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 69,
+            'wawancara' => 51,
+            'latihan' => 1,
+            'audisi' => 79
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 70,
+            'wawancara' => 35,
+            'latihan' => 2,
+            'audisi' => 77
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 71,
+            'wawancara' => 67,
+            'latihan' => 5,
+            'audisi' => 77
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 72,
+            'wawancara' => 32,
+            'latihan' => 5,
+            'audisi' => 83
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 73,
+            'wawancara' => 98,
+            'latihan' => 1,
+            'audisi' => 92
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 74,
+            'wawancara' => 62,
+            'latihan' => 5,
+            'audisi' => 41
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 75,
+            'wawancara' => 97,
+            'latihan' => 3,
+            'audisi' => 63
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 76,
+            'wawancara' => 28,
+            'latihan' => 5,
+            'audisi' => 22
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 77,
+            'wawancara' => 82,
+            'latihan' => 3,
+            'audisi' => 28
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 78,
+            'wawancara' => 78,
+            'latihan' => 5,
+            'audisi' => 56
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 79,
+            'wawancara' => 36,
+            'latihan' => 5,
+            'audisi' => 62
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 80,
+            'wawancara' => 65,
+            'latihan' => 4,
+            'audisi' => 54
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 81,
+            'wawancara' => 32,
+            'latihan' => 2,
+            'audisi' => 37
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 82,
+            'wawancara' => 77,
+            'latihan' => 2,
+            'audisi' => 95
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 83,
+            'wawancara' => 20,
+            'latihan' => 5,
+            'audisi' => 45
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 84,
+            'wawancara' => 49,
+            'latihan' => 3,
+            'audisi' => 87
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 85,
+            'wawancara' => 58,
+            'latihan' => 5,
+            'audisi' => 47
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 86,
+            'wawancara' => 57,
+            'latihan' => 2,
+            'audisi' => 78
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 87,
+            'wawancara' => 61,
+            'latihan' => 5,
+            'audisi' => 91
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 88,
+            'wawancara' => 25,
+            'latihan' => 4,
+            'audisi' => 25
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 89,
+            'wawancara' => 21,
+            'latihan' => 1,
+            'audisi' => 77
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 90,
+            'wawancara' => 64,
+            'latihan' => 1,
+            'audisi' => 79
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 91,
+            'wawancara' => 97,
+            'latihan' => 1,
+            'audisi' => 27
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 92,
+            'wawancara' => 75,
+            'latihan' => 3,
+            'audisi' => 73
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 93,
+            'wawancara' => 67,
+            'latihan' => 5,
+            'audisi' => 29
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 94,
+            'wawancara' => 87,
+            'latihan' => 2,
+            'audisi' => 43
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 95,
+            'wawancara' => 67,
+            'latihan' => 5,
+            'audisi' => 69
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 96,
+            'wawancara' => 63,
+            'latihan' => 1,
+            'audisi' => 85
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 97,
+            'wawancara' => 31,
+            'latihan' => 1,
+            'audisi' => 60
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 98,
+            'wawancara' => 42,
+            'latihan' => 3,
+            'audisi' => 97
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 99,
+            'wawancara' => 52,
+            'latihan' => 4,
+            'audisi' => 29
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 100,
+            'wawancara' => 22,
+            'latihan' => 1,
+            'audisi' => 82
+        ]);
+        
+        Nilai::Create([
+            'user_id' => 101,
+            'wawancara' => 61,
+            'latihan' => 1,
+            'audisi' => 74
+        ]);
     }
 }
