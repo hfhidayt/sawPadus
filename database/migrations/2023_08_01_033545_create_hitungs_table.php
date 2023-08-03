@@ -20,10 +20,10 @@ class CreateHitungsTable extends Migration
             $table->timestamps();
             $table->double('nilai_vektor');
             $table->double('normalisasi_wawancara');
-            $table->double('normalisasi_latihan');
-            $table->double('normalisasi_audisi');
             $table->double('vektor_wawancara');
+            $table->double('normalisasi_latihan');
             $table->double('vektor_latihan');
+            $table->double('normalisasi_audisi');
             $table->double('vektor_audisi');
         });
     }
