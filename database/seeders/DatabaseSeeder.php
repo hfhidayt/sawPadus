@@ -27,6 +27,16 @@ class DatabaseSeeder extends Seeder
             'role' => 'admin',
             'nilai' => 1
         ]);
+        
+        User::Create([
+            'nama' => 'Ketua',
+            'username' => 'ketua',
+            'password' => Hash::make('ketua'),
+            'nim' => '11111111',
+            'jurusan' => 'padusUtdi',
+            'role' => 'ketua',
+            'nilai' => 1
+        ]);
 
         Kriteria::Create([
             'nama_kriteria' => 'Wawancara',
@@ -1044,700 +1054,700 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Nilai::Create([
-            'user_id' => 2,
+            'user_id' => 3,
             'wawancara' => 61,
             'latihan' => 4,
             'audisi' => 83
         ]);
         
         Nilai::Create([
-            'user_id' => 3,
+            'user_id' => 4,
             'wawancara' => 78,
             'latihan' => 5,
             'audisi' => 82
         ]);
         
         Nilai::Create([
-            'user_id' => 4,
+            'user_id' => 5,
             'wawancara' => 89,
             'latihan' => 3,
             'audisi' => 94
         ]);
         
         Nilai::Create([
-            'user_id' => 5,
+            'user_id' => 6,
             'wawancara' => 98,
             'latihan' => 5,
             'audisi' => 73
         ]);
         
         Nilai::Create([
-            'user_id' => 6,
+            'user_id' => 7,
             'wawancara' => 85,
             'latihan' => 2,
             'audisi' => 67
         ]);
         
         Nilai::Create([
-            'user_id' => 7,
+            'user_id' => 8,
             'wawancara' => 66,
             'latihan' => 1,
             'audisi' => 77
         ]);
         
         Nilai::Create([
-            'user_id' => 8,
+            'user_id' => 9,
             'wawancara' => 79,
             'latihan' => 4,
             'audisi' => 75
         ]);
         
         Nilai::Create([
-            'user_id' => 9,
+            'user_id' => 10,
             'wawancara' => 76,
             'latihan' => 5,
             'audisi' => 87
         ]);
         
         Nilai::Create([
-            'user_id' => 10,
+            'user_id' => 11,
             'wawancara' => 88,
             'latihan' => 3,
             'audisi' => 45
         ]);
         
         Nilai::Create([
-            'user_id' => 11,
+            'user_id' => 12,
             'wawancara' => 64,
             'latihan' => 2,
             'audisi' => 62
         ]);
         
         Nilai::Create([
-            'user_id' => 12,
+            'user_id' => 13,
             'wawancara' => 81,
             'latihan' => 3,
             'audisi' => 29
         ]);
         
         Nilai::Create([
-            'user_id' => 13,
+            'user_id' => 14,
             'wawancara' => 47,
             'latihan' => 1,
             'audisi' => 40
         ]);
         
         Nilai::Create([
-            'user_id' => 14,
+            'user_id' => 15,
             'wawancara' => 48,
             'latihan' => 3,
             'audisi' => 68
         ]);
         
         Nilai::Create([
-            'user_id' => 15,
+            'user_id' => 16,
             'wawancara' => 89,
             'latihan' => 4,
             'audisi' => 28
         ]);
         
         Nilai::Create([
-            'user_id' => 16,
+            'user_id' => 17,
             'wawancara' => 37,
             'latihan' => 4,
             'audisi' => 50
         ]);
         
         Nilai::Create([
-            'user_id' => 17,
+            'user_id' => 18,
             'wawancara' => 21,
             'latihan' => 1,
             'audisi' => 75
         ]);
         
         Nilai::Create([
-            'user_id' => 18,
+            'user_id' => 19,
             'wawancara' => 29,
             'latihan' => 5,
             'audisi' => 31
         ]);
         
         Nilai::Create([
-            'user_id' => 19,
+            'user_id' => 20,
             'wawancara' => 74,
             'latihan' => 2,
             'audisi' => 96
         ]);
         
         Nilai::Create([
-            'user_id' => 20,
+            'user_id' => 21,
             'wawancara' => 41,
             'latihan' => 2,
             'audisi' => 60
         ]);
         
         Nilai::Create([
-            'user_id' => 21,
+            'user_id' => 22,
             'wawancara' => 81,
             'latihan' => 3,
             'audisi' => 25
         ]);
         
         Nilai::Create([
-            'user_id' => 22,
+            'user_id' => 23,
             'wawancara' => 93,
             'latihan' => 1,
             'audisi' => 92
         ]);
         
         Nilai::Create([
-            'user_id' => 23,
+            'user_id' => 24,
             'wawancara' => 69,
             'latihan' => 1,
             'audisi' => 84
         ]);
         
         Nilai::Create([
-            'user_id' => 24,
+            'user_id' => 25,
             'wawancara' => 97,
             'latihan' => 1,
             'audisi' => 33
         ]);
         
         Nilai::Create([
-            'user_id' => 25,
+            'user_id' => 26,
             'wawancara' => 59,
             'latihan' => 2,
             'audisi' => 95
         ]);
         
         Nilai::Create([
-            'user_id' => 26,
+            'user_id' => 27,
             'wawancara' => 35,
             'latihan' => 4,
             'audisi' => 69
         ]);
         
         Nilai::Create([
-            'user_id' => 27,
+            'user_id' => 28,
             'wawancara' => 87,
             'latihan' => 1,
             'audisi' => 61
         ]);
         
         Nilai::Create([
-            'user_id' => 28,
+            'user_id' => 29,
             'wawancara' => 28,
             'latihan' => 5,
             'audisi' => 35
         ]);
         
         Nilai::Create([
-            'user_id' => 29,
+            'user_id' => 30,
             'wawancara' => 36,
             'latihan' => 1,
             'audisi' => 30
         ]);
         
         Nilai::Create([
-            'user_id' => 30,
+            'user_id' => 31,
             'wawancara' => 41,
             'latihan' => 3,
             'audisi' => 84
         ]);
         
         Nilai::Create([
-            'user_id' => 31,
+            'user_id' => 32,
             'wawancara' => 56,
             'latihan' => 3,
             'audisi' => 65
         ]);
         
         Nilai::Create([
-            'user_id' => 32,
+            'user_id' => 33,
             'wawancara' => 75,
             'latihan' => 2,
             'audisi' => 35
         ]);
         
         Nilai::Create([
-            'user_id' => 33,
+            'user_id' => 34,
             'wawancara' => 31,
             'latihan' => 3,
             'audisi' => 88
         ]);
         
         Nilai::Create([
-            'user_id' => 34,
+            'user_id' => 35,
             'wawancara' => 54,
             'latihan' => 5,
             'audisi' => 58
         ]);
         
         Nilai::Create([
-            'user_id' => 35,
+            'user_id' => 36,
             'wawancara' => 69,
             'latihan' => 5,
             'audisi' => 31
         ]);
         
         Nilai::Create([
-            'user_id' => 36,
+            'user_id' => 37,
             'wawancara' => 23,
             'latihan' => 4,
             'audisi' => 71
         ]);
         
         Nilai::Create([
-            'user_id' => 37,
+            'user_id' => 38,
             'wawancara' => 83,
             'latihan' => 2,
             'audisi' => 31
         ]);
         
         Nilai::Create([
-            'user_id' => 38,
+            'user_id' => 39,
             'wawancara' => 28,
             'latihan' => 2,
             'audisi' => 34
         ]);
         
         Nilai::Create([
-            'user_id' => 39,
+            'user_id' => 40,
             'wawancara' => 70,
             'latihan' => 5,
             'audisi' => 36
         ]);
         
         Nilai::Create([
-            'user_id' => 40,
+            'user_id' => 41,
             'wawancara' => 63,
             'latihan' => 3,
             'audisi' => 37
         ]);
         
         Nilai::Create([
-            'user_id' => 41,
+            'user_id' => 42,
             'wawancara' => 50,
             'latihan' => 4,
             'audisi' => 45
         ]);
         
         Nilai::Create([
-            'user_id' => 42,
+            'user_id' => 43,
             'wawancara' => 50,
             'latihan' => 2,
             'audisi' => 77
         ]);
         
         Nilai::Create([
-            'user_id' => 43,
+            'user_id' => 44,
             'wawancara' => 97,
             'latihan' => 1,
             'audisi' => 29
         ]);
         
         Nilai::Create([
-            'user_id' => 44,
+            'user_id' => 45,
             'wawancara' => 75,
             'latihan' => 3,
             'audisi' => 100
         ]);
         
         Nilai::Create([
-            'user_id' => 45,
+            'user_id' => 46,
             'wawancara' => 61,
             'latihan' => 5,
             'audisi' => 45
         ]);
         
         Nilai::Create([
-            'user_id' => 46,
+            'user_id' => 47,
             'wawancara' => 91,
             'latihan' => 5,
             'audisi' => 55
         ]);
         
         Nilai::Create([
-            'user_id' => 47,
+            'user_id' => 48,
             'wawancara' => 52,
             'latihan' => 1,
             'audisi' => 36
         ]);
         
         Nilai::Create([
-            'user_id' => 48,
+            'user_id' => 49,
             'wawancara' => 84,
             'latihan' => 5,
             'audisi' => 44
         ]);
         
         Nilai::Create([
-            'user_id' => 49,
+            'user_id' => 50,
             'wawancara' => 94,
             'latihan' => 1,
             'audisi' => 56
         ]);
         
         Nilai::Create([
-            'user_id' => 50,
+            'user_id' => 51,
             'wawancara' => 63,
             'latihan' => 1,
             'audisi' => 88
         ]);
         
         Nilai::Create([
-            'user_id' => 51,
+            'user_id' => 52,
             'wawancara' => 87,
             'latihan' => 1,
             'audisi' => 54
         ]);
         
         Nilai::Create([
-            'user_id' => 52,
+            'user_id' => 53,
             'wawancara' => 35,
             'latihan' => 5,
             'audisi' => 52
         ]);
         
         Nilai::Create([
-            'user_id' => 53,
+            'user_id' => 54,
             'wawancara' => 77,
             'latihan' => 4,
             'audisi' => 100
         ]);
         
         Nilai::Create([
-            'user_id' => 54,
+            'user_id' => 55,
             'wawancara' => 23,
             'latihan' => 4,
             'audisi' => 53
         ]);
         
         Nilai::Create([
-            'user_id' => 55,
+            'user_id' => 56,
             'wawancara' => 87,
             'latihan' => 5,
             'audisi' => 23
         ]);
         
         Nilai::Create([
-            'user_id' => 56,
+            'user_id' => 57,
             'wawancara' => 34,
             'latihan' => 1,
             'audisi' => 95
         ]);
         
         Nilai::Create([
-            'user_id' => 57,
+            'user_id' => 58,
             'wawancara' => 60,
             'latihan' => 5,
             'audisi' => 72
         ]);
         
         Nilai::Create([
-            'user_id' => 58,
+            'user_id' => 59,
             'wawancara' => 66,
             'latihan' => 3,
             'audisi' => 77
         ]);
         
         Nilai::Create([
-            'user_id' => 59,
+            'user_id' => 60,
             'wawancara' => 21,
             'latihan' => 2,
             'audisi' => 65
         ]);
         
         Nilai::Create([
-            'user_id' => 60,
+            'user_id' => 61,
             'wawancara' => 47,
             'latihan' => 2,
             'audisi' => 85
         ]);
         
         Nilai::Create([
-            'user_id' => 61,
+            'user_id' => 62,
             'wawancara' => 21,
             'latihan' => 5,
             'audisi' => 46
         ]);
         
         Nilai::Create([
-            'user_id' => 62,
+            'user_id' => 63,
             'wawancara' => 60,
             'latihan' => 2,
             'audisi' => 22
         ]);
         
         Nilai::Create([
-            'user_id' => 63,
+            'user_id' => 64,
             'wawancara' => 21,
             'latihan' => 4,
             'audisi' => 59
         ]);
         
         Nilai::Create([
-            'user_id' => 64,
+            'user_id' => 65,
             'wawancara' => 31,
             'latihan' => 4,
             'audisi' => 75
         ]);
         
         Nilai::Create([
-            'user_id' => 65,
+            'user_id' => 66,
             'wawancara' => 29,
             'latihan' => 2,
             'audisi' => 24
         ]);
         
         Nilai::Create([
-            'user_id' => 66,
+            'user_id' => 67,
             'wawancara' => 89,
             'latihan' => 3,
             'audisi' => 53
         ]);
         
         Nilai::Create([
-            'user_id' => 67,
+            'user_id' => 68,
             'wawancara' => 79,
             'latihan' => 3,
             'audisi' => 51
         ]);
         
         Nilai::Create([
-            'user_id' => 68,
+            'user_id' => 69,
             'wawancara' => 88,
             'latihan' => 4,
             'audisi' => 98
         ]);
         
         Nilai::Create([
-            'user_id' => 69,
+            'user_id' => 70,
             'wawancara' => 51,
             'latihan' => 1,
             'audisi' => 79
         ]);
         
         Nilai::Create([
-            'user_id' => 70,
+            'user_id' => 71,
             'wawancara' => 35,
             'latihan' => 2,
             'audisi' => 77
         ]);
         
         Nilai::Create([
-            'user_id' => 71,
+            'user_id' => 72,
             'wawancara' => 67,
             'latihan' => 5,
             'audisi' => 77
         ]);
         
         Nilai::Create([
-            'user_id' => 72,
+            'user_id' => 73,
             'wawancara' => 32,
             'latihan' => 5,
             'audisi' => 83
         ]);
         
         Nilai::Create([
-            'user_id' => 73,
+            'user_id' => 74,
             'wawancara' => 98,
             'latihan' => 1,
             'audisi' => 92
         ]);
         
         Nilai::Create([
-            'user_id' => 74,
+            'user_id' => 75,
             'wawancara' => 62,
             'latihan' => 5,
             'audisi' => 41
         ]);
         
         Nilai::Create([
-            'user_id' => 75,
+            'user_id' => 76,
             'wawancara' => 97,
             'latihan' => 3,
             'audisi' => 63
         ]);
         
         Nilai::Create([
-            'user_id' => 76,
+            'user_id' => 77,
             'wawancara' => 28,
             'latihan' => 5,
             'audisi' => 22
         ]);
         
         Nilai::Create([
-            'user_id' => 77,
+            'user_id' => 78,
             'wawancara' => 82,
             'latihan' => 3,
             'audisi' => 28
         ]);
         
         Nilai::Create([
-            'user_id' => 78,
+            'user_id' => 79,
             'wawancara' => 78,
             'latihan' => 5,
             'audisi' => 56
         ]);
         
         Nilai::Create([
-            'user_id' => 79,
+            'user_id' => 80,
             'wawancara' => 36,
             'latihan' => 5,
             'audisi' => 62
         ]);
         
         Nilai::Create([
-            'user_id' => 80,
+            'user_id' => 81,
             'wawancara' => 65,
             'latihan' => 4,
             'audisi' => 54
         ]);
         
         Nilai::Create([
-            'user_id' => 81,
+            'user_id' => 82,
             'wawancara' => 32,
             'latihan' => 2,
             'audisi' => 37
         ]);
         
         Nilai::Create([
-            'user_id' => 82,
+            'user_id' => 83,
             'wawancara' => 77,
             'latihan' => 2,
             'audisi' => 95
         ]);
         
         Nilai::Create([
-            'user_id' => 83,
+            'user_id' => 84,
             'wawancara' => 20,
             'latihan' => 5,
             'audisi' => 45
         ]);
         
         Nilai::Create([
-            'user_id' => 84,
+            'user_id' => 85,
             'wawancara' => 49,
             'latihan' => 3,
             'audisi' => 87
         ]);
         
         Nilai::Create([
-            'user_id' => 85,
+            'user_id' => 86,
             'wawancara' => 58,
             'latihan' => 5,
             'audisi' => 47
         ]);
         
         Nilai::Create([
-            'user_id' => 86,
+            'user_id' => 87,
             'wawancara' => 57,
             'latihan' => 2,
             'audisi' => 78
         ]);
         
         Nilai::Create([
-            'user_id' => 87,
+            'user_id' => 88,
             'wawancara' => 61,
             'latihan' => 5,
             'audisi' => 91
         ]);
         
         Nilai::Create([
-            'user_id' => 88,
+            'user_id' => 89,
             'wawancara' => 25,
             'latihan' => 4,
             'audisi' => 25
         ]);
         
         Nilai::Create([
-            'user_id' => 89,
+            'user_id' => 90,
             'wawancara' => 21,
             'latihan' => 1,
             'audisi' => 77
         ]);
         
         Nilai::Create([
-            'user_id' => 90,
+            'user_id' => 91,
             'wawancara' => 64,
             'latihan' => 1,
             'audisi' => 79
         ]);
         
         Nilai::Create([
-            'user_id' => 91,
+            'user_id' => 92,
             'wawancara' => 97,
             'latihan' => 1,
             'audisi' => 27
         ]);
         
         Nilai::Create([
-            'user_id' => 92,
+            'user_id' => 93,
             'wawancara' => 75,
             'latihan' => 3,
             'audisi' => 73
         ]);
         
         Nilai::Create([
-            'user_id' => 93,
+            'user_id' => 94,
             'wawancara' => 67,
             'latihan' => 5,
             'audisi' => 29
         ]);
         
         Nilai::Create([
-            'user_id' => 94,
+            'user_id' => 95,
             'wawancara' => 87,
             'latihan' => 2,
             'audisi' => 43
         ]);
         
         Nilai::Create([
-            'user_id' => 95,
+            'user_id' => 96,
             'wawancara' => 67,
             'latihan' => 5,
             'audisi' => 69
         ]);
         
         Nilai::Create([
-            'user_id' => 96,
+            'user_id' => 97,
             'wawancara' => 63,
             'latihan' => 1,
             'audisi' => 85
         ]);
         
         Nilai::Create([
-            'user_id' => 97,
+            'user_id' => 98,
             'wawancara' => 31,
             'latihan' => 1,
             'audisi' => 60
         ]);
         
         Nilai::Create([
-            'user_id' => 98,
+            'user_id' => 99,
             'wawancara' => 42,
             'latihan' => 3,
             'audisi' => 97
         ]);
         
         Nilai::Create([
-            'user_id' => 99,
+            'user_id' => 100,
             'wawancara' => 52,
             'latihan' => 4,
             'audisi' => 29
         ]);
         
         Nilai::Create([
-            'user_id' => 100,
+            'user_id' => 101,
             'wawancara' => 22,
             'latihan' => 1,
             'audisi' => 82
         ]);
         
         Nilai::Create([
-            'user_id' => 101,
+            'user_id' => 102,
             'wawancara' => 61,
             'latihan' => 1,
             'audisi' => 74

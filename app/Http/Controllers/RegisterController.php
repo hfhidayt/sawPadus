@@ -24,6 +24,8 @@ class RegisterController extends Controller
         ]);
 
         $validatedData['password'] = Hash::make($validatedData['password']);
+        $validatedData['role'] = 'anggota';
+        $validatedData['hasil'] = 'tidak lulus';
 
         if(User::where('username', '=', $validatedData['username'])->exists()) {
             return back()->with('registerError', 'Gagal mendaftar, username sudah digunakan')->withInput();

@@ -23,6 +23,7 @@ class CreateUsersTable extends Migration
             $table->string('jurusan');
             $table->string('role');
             $table->boolean('nilai')->default(false);
+            $table->string('hasil')->default('tidak lulus');
             $table->rememberToken();
             $table->timestamps();
         });

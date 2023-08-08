@@ -27,7 +27,7 @@
 </div>
 <div class="row">
     <div class="col mx-4 my-4">
-        <a href="#create" class="btn btn-success" data-bs-toggle="modal">Detail Perhitungan</a>
+        <a href="/dashboard/detail" class="btn btn-success">Detail Perhitungan</a>
     </div>
 </div>
 <div class="row">
@@ -37,7 +37,8 @@
                 <tr>
                     <th scope="col">Ranking</th>
                     <th scope="col">Nama</th>
-                    <th scope="col">Nilai Vektor</th>
+                    <th scope="col">Hasil</th>
+                    <th scope="col">Nilai Akhir</th>
                 </tr>
             </thead>
             <tbody>
@@ -45,9 +46,11 @@
                     <tr>
                         <td class="text-center">{{ $loop->iteration }}</td>
                         <td class="text-center">{{ $p->user->nama }}</td>
-                        <td class="text-center">{{ $p->nilai_vektor }}</td>
+                        <td class="text-center">{{ $p->user->hasil }}</td>
+                        <td class="text-center">{{ (round($p->nilai_vektor * 100, 2)) }}</td>
                     </tr>
                 @endforeach
+            </tbody>
         </table>
     </div>
 </div>

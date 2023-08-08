@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Hitung;
 use App\Models\Kriteria;
 use App\Models\Nilai;
+use App\Models\User;
 use Illuminate\Http\Request;
 use stdClass;
 
@@ -19,7 +20,7 @@ class HitungController extends Controller
     {
         return view('dashboard.perhitungan.index', [
             'title' => 'Perhitungan | Padus UTDI',
-            'perhitungans' => Hitung::all()
+            'perhitungans' => Hitung::orderBy('nilai_vektor', 'DESC')->get()
         ]);
     }
 
@@ -43,6 +44,12 @@ class HitungController extends Controller
     {
         // mengambil semua nilai
         $nilai = Nilai::all();
+
+        $perhitungan = Hitung::count('user_id');
+
+        if ($perhitungan != 0) {
+            Hitung::truncate();
+        }
         
         // mengambil semua kriteria
         $kriteria = Kriteria::all();
@@ -157,15 +164,19 @@ class HitungController extends Controller
                 $nilai_id = $n->id;
                 $test['nilai_id'] = $nilai_id;
                 
-                echo $normalisasiHitung.'['.$m.']['.$l.'] = '.$normalisasi[$m][$l].'<br>';
+                // echo $normalisasiHitung.'['.$m.']['.$l.'] = '.$normalisasi[$m][$l].'<br>';
                 $test[$normalisasiHitung] = $normalisasi[$m][$l];
 
-                echo $vektorHitung.'['.$m.']['.$l.'] = '.$vektorKriteria[$m][$l].'<br>';
+                // echo $vektorHitung.'['.$m.']['.$l.'] = '.$vektorKriteria[$m][$l].'<br>';
                 $test[$vektorHitung] = $vektorKriteria[$m][$l];
 
                 $vektor += $vektorKriteria[$m][$l];
-                echo 'vektorSum['.$m.']['.$l.'] = '.$vektor.'<br>';
+                // echo 'vektorSum['.$m.']['.$l.'] = '.$vektor.'<br>';
                 $test['nilai_vektor'] = round($vektor, 6);
+
+                if ($vektor > 0.6) {
+                    User::where('id', $n->user_id)->update(['hasil' =>'lulus']);
+                }
 
                 // if($m == ($kriteria_length - 1)) {
                 // }
@@ -179,6 +190,7 @@ class HitungController extends Controller
         }
         // $test->save();
         // dd($max, $normalisasi, $vektorKriteria, $test, $bobot);
+        return redirect('/dashboard/hitung');
     }
 
     /**
