@@ -19,10 +19,13 @@ class CreateHitungsTable extends Migration
             $table->foreignId('nilai_id');
             $table->timestamps();
             $table->double('nilai_vektor');
+            $table->double('max_wawancara')->default('0');
             $table->double('normalisasi_wawancara');
             $table->double('vektor_wawancara');
+            $table->double('max_latihan')->default('0');
             $table->double('normalisasi_latihan');
             $table->double('vektor_latihan');
+            $table->double('max_audisi')->default('0');
             $table->double('normalisasi_audisi');
             $table->double('vektor_audisi');
         });

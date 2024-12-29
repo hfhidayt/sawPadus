@@ -11,12 +11,7 @@
                 <div class="modal-body">
                     <div class="mb-3">
                         <label for="nama_anggota" class="form-label">Nama Anggota</label>
-                        <select class="form-select" name="user_id" id="nama_anggota">
-                            <option value="">-- Pilih --</option>
-                            @foreach($users as $u)
-                                <option value="{{ $u->id }}" {{ $n->user_id == $u->id ? 'selected' : ''  }}>{{ $u->nama }}</option>
-                            @endforeach
-                        </select>
+                        <input type="text" class="form-control" placeholder="Nama Anggota" name="nama_anggota" id="nama_anggota" value="{{ $n->user->nama }}" disabled>
                     </div>
                     @error('nama_anggota')
                         <div class="invalid-feedback d-block">
@@ -25,12 +20,22 @@
                     @enderror
                     @foreach ($kriterias as $k)
                         <div class="mb-3">
+                        @if (strtolower($k->nama_kriteria) == 'latihan')
+                                <label for="{{ strtolower($k->nama_kriteria) }}" class="form-label">{{ $k->nama_kriteria }} (0-5)</label>
+                                @php
+                                    $t = strtolower($k->nama_kriteria);
+                                    $b = $n->$t;
+                                @endphp
+                                <input type="number" class="form-control" placeholder="{{ $k->nama_kriteria }}" name="{{ strtolower($k->nama_kriteria) }}" id="create_{{ strtolower($k->nama_kriteria) }}" min="0" max="5" value="{{ $b }}">
+                            @else
                             <label for="{{ strtolower($k->nama_kriteria) }}" class="form-label">{{ $k->nama_kriteria }} (0-100)</label>
                             @php
                                 $t = strtolower($k->nama_kriteria);
                                 $b = $n->$t;
                             @endphp
                             <input type="number" class="form-control" placeholder="{{ $k->nama_kriteria }}" name="{{ strtolower($k->nama_kriteria) }}" id="create_{{ strtolower($k->nama_kriteria) }}" min="0" max="100" value="{{ $b }}">
+                            @endif
+
                         </div>
                         @error('{{ strtolower($k->nama_kriteria) }}')
                             <div class="invalid-feedback d-block">

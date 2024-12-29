@@ -52,7 +52,7 @@ class KriteriaController extends Controller
         });
         
         Schema::table('hitungs', function (Blueprint $table) use ($validatedData) {
-            $table->double(strtolower('max_'.$validatedData['nama_kriteria']));
+            $table->double(strtolower('max_'.$validatedData['nama_kriteria']))->default('0');
             $table->double(strtolower('normalisasi_'.$validatedData['nama_kriteria']));
             $table->double(strtolower('vektor_'.$validatedData['nama_kriteria']));
         });

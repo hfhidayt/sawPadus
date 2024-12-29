@@ -24,8 +24,13 @@
                     @enderror
                     @foreach ($kriterias as $k)
                         <div class="mb-3">
-                            <label for="{{ strtolower($k->nama_kriteria) }}" class="form-label">{{ $k->nama_kriteria }} (0-100)</label>
-                            <input type="number" class="form-control" placeholder="{{ $k->nama_kriteria }}" name="{{ strtolower($k->nama_kriteria) }}" id="create_{{ strtolower($k->nama_kriteria) }}" min="0" max="100">
+                            @if (strtolower($k->nama_kriteria) == 'latihan')
+                                <label for="{{ strtolower($k->nama_kriteria) }}" class="form-label">{{ $k->nama_kriteria }} (0-5)</label>
+                                <input type="number" class="form-control" placeholder="{{ $k->nama_kriteria }}" name="{{ strtolower($k->nama_kriteria) }}" id="create_{{ strtolower($k->nama_kriteria) }}" min="0" max="5">
+                            @else
+                                <label for="{{ strtolower($k->nama_kriteria) }}" class="form-label">{{ $k->nama_kriteria }} (0-100)</label>
+                                <input type="number" class="form-control" placeholder="{{ $k->nama_kriteria }}" name="{{ strtolower($k->nama_kriteria) }}" id="create_{{ strtolower($k->nama_kriteria) }}" min="0" max="100">
+                            @endif
                         </div>
                         @error('{{ strtolower($k->nama_kriteria) }}')
                             <div class="invalid-feedback d-block">
